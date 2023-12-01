@@ -1,0 +1,53 @@
+/* Write your CSS here */
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .messagecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+    height: 300px;
+    width: 100vw;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-card {
+    text-align: center;
+    color: #303150;
+  }
+}
+
+@media (min-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .messagecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+    height: 600px;
+    width: 650px;
+    border-radius: 10px;
+  }
+
+  .btn-card {
+    text-align: center;
+    color: #303150;
+  }
+}
